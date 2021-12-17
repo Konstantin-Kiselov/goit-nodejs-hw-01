@@ -1,0 +1,29 @@
+{
+  "name": "goit-nodejs-hw-01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "fs": "0.0.1-security",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "scripts": {
+    "start": "node index",
+    "start:dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Konstantin-Kiselov/goit-nodejs-hw-01.git"
+  },
+  "keywords": [],
+  "author": "Konstantin Kiselov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Konstantin-Kiselov/goit-nodejs-hw-01/issues"
+  },
+  "homepage": "https://github.com/Konstantin-Kiselov/goit-nodejs-hw-01#readme"
+}
