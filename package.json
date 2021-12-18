@@ -3,11 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "dependencies": {
-    "cors": "^2.8.5",
-    "fs": "0.0.1-security",
-    "path": "^0.12.7"
-  },
+  "dependencies": {},
   "devDependencies": {
     "nodemon": "^2.0.15"
   },
