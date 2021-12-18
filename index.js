@@ -1,3 +1,13 @@
-const contacts = require('./contacts');
+const contactsOperations = require('./contacts');
 
-console.log(222);
+const invokeAction = async (action, filePath, data) => {
+  switch (action) {
+    case 'getAll':
+      const contacts = await contactsOperations.getAll();
+      break;
+
+    default:
+      console.log('Unknown action');
+      break;
+  }
+};
